@@ -4,22 +4,29 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="Header">
-        <span className = 'left'>
-            <span>
-                Z.
-            </span>
-            <span>
-                Work
-            </span>
-        </span>
-        <span className = 'right'>
-            <span>
-                Workflow
-            </span>
-            <span>
-                Contact me
-            </span>
-        </span>
+        <div className = 'left'>
+            <div className='header_item'>
+                <div className='item-big'>Z.</div>
+                <div className='item-small'>About me</div>
+            </div>
+            <div className='header_item'>
+                <div className='item-big'>Work</div>
+                <div className='item-small'>Home cases</div>
+            </div>
+        </div>
+        <div className='middle'>
+            <div className='item-small'> Go Home</div>
+        </div>
+        <div className = 'right'>
+            <div className='header_item'>
+                <div className='item-big'>Workflow</div>
+                <div className='item-small'>All the processes</div>
+            </div>
+            <div className='header_item'>
+                <div className='item-big'>Contact me</div>
+                <div className='item-small'>For any collaboration</div>
+            </div>
+        </div>
     </div>
   );
 }
