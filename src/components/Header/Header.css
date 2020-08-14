@@ -1,4 +1,9 @@
 .Header {
+    position: fixed;
+    width: 100%;
+}
+
+.header_container {
     position: relative;
     color: black;
     height: 10rem;

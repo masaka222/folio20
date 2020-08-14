@@ -1,10 +1,12 @@
 .Heading {
-    height: calc(100vh - 10rem);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 20rem;
 }
 
 .heading_main {
+    margin-top: 10rem;
     position: relative;
-    height: calc(100vh - 30rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,12 +21,11 @@
 
 .archive{
     font-family: 'Prata', serif;
-    font-size: 10rem;
+    font-size: 12rem;
 }
 
 .heading_footer{
     width: 100%;
-    height: 20rem;
     align-self: flex-end;
     position: relative;
 }
