@@ -1,0 +1,14 @@
+.Page2 {
+    height: 100vh;
+    background-color: #B4ABA6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page2_container {
+    background-color: white;
+    width: 80rem;
+    height: 45rem;
+}

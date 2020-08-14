@@ -1,14 +1,14 @@
 import React from 'react';
-import './Heading.css';
+import './Page1.css';
 
-const Heading = () => {
+const Page1 = () => {
     return(
-        <div className='Heading'>
-            <div className='heading_main'>
+        <div className='Page1'>
+            <div className='page1_main'>
                 <div className='item-small back'>Back to all projects</div>
                 <div className='archive'>Archive</div>
             </div>
-            <div className='heading_footer'>
+            <div className='page1_footer'>
                 <div className='arrow'>&#8595;</div>
                 <div className='alpha'>A.</div>
                 <div className='alpha_text'> 
@@ -20,4 +20,4 @@ const Heading = () => {
     );
 }
 
-export default Heading;
+export default Page1;
