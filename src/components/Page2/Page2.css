@@ -9,6 +9,11 @@
 
 .Page2_container {
     background-color: white;
-    width: 80rem;
-    height: 45rem;
+    /* width: 80rem;
+    height: 45rem; */
+    width: 50%;
+    height: 50%;
+
+    max-width: 80rem;
+    max-height: 45rem;
 }

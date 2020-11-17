@@ -52,3 +52,45 @@
     transform: translate(-50%, -50%);
     line-height: 2rem;
 }
+
+@media only screen and (max-width: 1024px){ 
+    .archive {
+        font-size: 8rem;
+    }
+
+    .back {
+        left: 8rem;
+    }
+
+    .arrow {
+        font-size: 10rem;
+        margin-left: 1rem;
+    }
+    
+    .alpha {
+        font-size: 10rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){ 
+    .archive {
+        font-size: 5rem;
+    }
+
+    .back {
+        left: 6rem;
+    }
+
+    .arrow {
+        font-size: 8rem;
+    }
+    
+    .alpha {
+        font-size: 8rem;
+    }
+    
+    .alpha_text {
+        left: 75%;
+    }
+}

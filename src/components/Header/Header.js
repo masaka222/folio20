@@ -10,7 +10,7 @@ const Header = () => {
                     <div className='item-big'>Z.</div>
                     <div className='item-small'>About me</div>
                 </div>
-                <div className='header_item'>
+                <div className='header_item active'>
                     <div className='item-big'>Work</div>
                     <div className='item-small'>Some cases</div>
                 </div>

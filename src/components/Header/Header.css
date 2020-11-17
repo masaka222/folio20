@@ -29,6 +29,14 @@
     padding: 2rem;
 }
 
+.header_item:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: #b73717;
+}
+
 .item-big {
     font-size: 3rem;
     padding-bottom: 1rem;
@@ -36,4 +44,43 @@
 .item-small {
     font-size: 1rem;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px){ 
+    .header_item {
+        padding: 1rem;
+    }
+
+    .item-big {
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+    .item-small {
+        font-size: .4rem;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 768px){ 
+    .middle {
+        display: none;
+    }
+
+    .header_container {
+        height: 7rem;
+        padding: 1rem;
+    }
+
+    .header_item {
+        padding: 1rem;
+    }
+
+    .item-big {
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+    .item-small {
+        font-size: 6px;
+        text-transform: uppercase;
+    }
 }

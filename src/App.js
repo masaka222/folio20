@@ -13,13 +13,13 @@ const App = () => {
     var width = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / width) * 100;
     document.getElementById("myBar").style.height = scrolled + "%";
-}
+  }
 
   return (
     <div className="App">
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div> 
+      <div className="progress-container">
+        <div className="progress-bar" id="myBar"></div>
+      </div>
       <Header/>
       <Page1/>
       <Page2/>
