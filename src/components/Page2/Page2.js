@@ -5,7 +5,7 @@ const Page2 = () => {
     return(
         <div className='Page2'>
             <div className='Page2_container'>
-                
+                <div className='inside'></div>
             </div>
         </div>
     );
